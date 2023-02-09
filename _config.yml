@@ -28,6 +28,8 @@ search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: katex
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -58,6 +60,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-katex
 
 author:
   name   : "First Lastname"
